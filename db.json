@@ -1,20 +1,73 @@
 {
-    "posts": [
-        {"id": "1", "title": "Infinix Note 40 Pro", "views": 0},
-        {"id": "2", "title": "Tecno Camon 30", "views": 0},
-        {"id": "3", "title": "Infinix Note 40 Pro", "views": 0},
-        {"id": "4", "title": "Tecno Camon 30", "views": 0},
-        {"id": "5", "title": "Infinix Note 40 Pro", "views": 0},
-        {"id": "6", "title": "Tecno Camon 30", "views": 0}
-    ],
-    "reviews": [
-        {"id": "1", "text": "Here's what you need to know before you pre-order the latest Note Series from Infinix Mobility.", "postId": "1"},
-        {"id": "2", "text": "Here's what you need to know about the latest Tecno Camon 30 series before you make your pre-order.", "postId": "2"},
-        {"id": "3", "text": "Here's what you need to know before you pre-order the latest Note Series from Infinix Mobility.", "postId": "3"},
-        {"id": "4", "text": "Here's what you need to know about the latest Tecno Camon 30 series before you make your pre-order.", "postId": "4"},
-        {"id": "5", "text": "Here's what you need to know before you pre-order the latest Note Series from Infinix Mobility.", "postId": "5"},
-        {"id": "6", "text": "Here's what you need to know about the latest Tecno Camon 30 series before you make your pre-order.", "postId": "6"}
-    ]
+  "posts": [
+    {
+      "id": "1",
+      "title": "Tecno Camon 30",
+      "image": "https://d3fyizz0b46qgr.cloudfront.net/global/phones/camon/30pro5g/20231032.png",
+      "description": "Here's what you need to know about the Tecno Camon 30 before making your pre-order.",
+      "views": 200
+    },
+    {
+      "id": "2",
+      "title": "Pixel 8 Pro",
+      "image": "https://www.phoneplacekenya.com/wp-content/uploads/2023/03/Google-Pixel-8-Pro-b.jpg",
+      "description": "Google Pixel 8 Pro is a real deal for modern, high-end smartphones in 2023. It comes with Bluetooth 5.3, A2DP, LE, aptX HD, supports NFC, has an under-the-display, optical finger sensor and USB Type-C 3.2. Powering the handset is Li-Ion 5,050 mAh, non-removable battery with 30W wired, PD3",
+      "views": 0
+    },
+    {
+      "id": "3",
+      "title": "Infinix Note 40 Pro",
+      "image": "https://ng.xpark.com/media/catalog/product/cache/cc4974be1c303eaafb326ed210fe8c88/x/6/x6850_note40pro_base1_2_1.png",
+      "description": "Here's what you need to know about the latest Infinix Note 40 Series before making your pre-order.",
+      "views": 0
+    },
+    {
+      "id": "4",
+      "title": "Google Pixel 8 Pro",
+      "image": "https://fdn.gsmarena.com/imgroot/reviews/23/google-pixel-8-pro/lifestyle/-1024w2/gsmarena_002.jpg",
+      "description": "Google Pixel 8 Pro is a real deal for modern, high-end smartphones in 2023. It comes with Bluetooth 5.3, A2DP, LE, aptX HD, supports NFC, has an under-the-display, optical finger sensor and USB Type-C 3.2. Powering the handset is Li-Ion 5,050 mAh, non-removable battery with 30W wired, PD3.\n"
+    },
+    {
+      "id": "5",
+      "title": "iPhone 15",
+      "image": "https://cdn.pixabay.com/photo/2022/05/04/07/38/iphone-13-pro-max-7173413_1280.jpg",
+      "description": "RAM: 6GB\nStorage: 128GB,256GB\nBattery: 3,200 mAh\nCamera: 48MP + 12 MP\nSelfie: 12MP + SL 3D\nDisplay: 6.1 inches\nProcessor: Apple A16 Bionic\nConnectivity: 5G, Nano-SIM, eSIM, Wi-Fi 6\nColors:   Black, Blue, Green, Yellow, Pink\nOS: iOS 17",
+      "views": 0
+    },
+    {
+      "id": "6",
+      "title": "Pixel 8 Pro",
+      "image": "https://www.phoneplacekenya.com/wp-content/uploads/2023/03/Google-Pixel-8-Pro-b.jpg",
+      "description": "Google Pixel 8 Pro is a real deal for modern, high-end smartphones in 2023. It comes with Bluetooth 5.3, A2DP, LE, aptX HD, supports NFC, has an under-the-display, optical finger sensor and USB Type-C 3.2. Powering the handset is Li-Ion 5,050 mAh, non-removable battery with 30W wired, PD3",
+      "views": 0
+    },
+    {
+      "id": "7",
+      "title": "Google Pixel 8 Pro",
+      "image": "https://fdn.gsmarena.com/imgroot/reviews/23/google-pixel-8-pro/lifestyle/-1024w2/gsmarena_002.jpg",
+      "description": "Google Pixel 8 Pro is a real deal for modern, high-end smartphones in 2023. It comes with Bluetooth 5.3, A2DP, LE, aptX HD, supports NFC, has an under-the-display, optical finger sensor and USB Type-C 3.2. Powering the handset is Li-Ion 5,050 mAh, non-removable battery with 30W wired, PD3.\n"
+    },
+    {
+      "id": "9",
+      "title": "Nokia  5.4",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/46/Nokia_5.4.jpg",
+      "description": "6.39\"\n720x1560 pixels\n48MP\n1080p\n4/6GB RAM\nSnapdragon 662\n4000mAh",
+      "views": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": null
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": null
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-
-  
+}
