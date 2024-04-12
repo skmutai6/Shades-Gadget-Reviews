@@ -3,13 +3,17 @@
         {"id": "1", "title": "Infinix Note 40 Pro", "views": 0},
         {"id": "2", "title": "Tecno Camon 30", "views": 0},
         {"id": "3", "title": "Infinix Note 40 Pro", "views": 0},
-        {"id": "4", "title": "Tecno Camon 30", "views": 0}
+        {"id": "4", "title": "Tecno Camon 30", "views": 0},
+        {"id": "5", "title": "Infinix Note 40 Pro", "views": 0},
+        {"id": "6", "title": "Tecno Camon 30", "views": 0}
     ],
-    "comments": [
+    "reviews": [
         {"id": "1", "text": "Here's what you need to know before you pre-order the latest Note Series from Infinix Mobility.", "postId": "1"},
         {"id": "2", "text": "Here's what you need to know about the latest Tecno Camon 30 series before you make your pre-order.", "postId": "2"},
         {"id": "3", "text": "Here's what you need to know before you pre-order the latest Note Series from Infinix Mobility.", "postId": "3"},
-        {"id": "4", "text": "Here's what you need to know about the latest Tecno Camon 30 series before you make your pre-order.", "postId": "4"}
+        {"id": "4", "text": "Here's what you need to know about the latest Tecno Camon 30 series before you make your pre-order.", "postId": "4"},
+        {"id": "5", "text": "Here's what you need to know before you pre-order the latest Note Series from Infinix Mobility.", "postId": "5"},
+        {"id": "6", "text": "Here's what you need to know about the latest Tecno Camon 30 series before you make your pre-order.", "postId": "6"}
     ]
   }
 
