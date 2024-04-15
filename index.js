@@ -12,15 +12,14 @@ fetch("http://localhost:3000/posts")
 
   for(post of posts){
     cardsContainer.innerHTML += `
-      <div class="block mx-auto max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">          
+      <div class="block mx-auto max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        <h5 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">${post.title}</h5>
         <img src="${post.image}" alt="Product image...">
-        <div class="text-2xl flex justify-around">
+        <div class="text-2xl flex justify-around p-2">
           <i onclick="deletePost(${post.id})" class="fa fa-trash text-red-700" aria-hidden="true"></i>
           <i onclick="editPost(${post.id})" class="fa fa-pencil" aria-hidden="true"></i>
         </div>
-        <h5 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">${post.title}</h5>
         <p class="text-center font-normal text-gray-700 dark:text-gray-400">${post.description}</p>
-        <div class="text-2xl flex justify-end text-blue-700"><i class="fa fa-share" aria-hidden="true"></i></div>
       </div>
     `
   }
@@ -36,6 +35,7 @@ function editPost(id) {
   
   let updateContainer = document.getElementById("updateContainer")
   updateContainer.innerHTML = `
+    <div class="container p-2">
     <h3 class="mt-6 font-medium flex justify-center items-center">Update Post</h3>
     <div class="grid container mx-auto mt-4">
       <div class="max-w-md mx-auto">
@@ -54,6 +54,7 @@ function editPost(id) {
         <label for="description" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Specifications</label>
       </div>
       <button onclick="updatePost${id}" type="submit" class="text-black bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+    </div>
     </div>
   `
   })
